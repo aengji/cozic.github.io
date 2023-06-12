@@ -1,0 +1,27 @@
+    body{
+        margin: 0 auto;
+        width:960px;
+
+        background-color:black;
+        background-position:center;
+        background-size:45%;+''
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+    }
+    #container{ position:relative; overflow:hidden; }
+
+    #container>#text_box{
+        position:relative;
+    }
+    sup{font-size:30px}
+    p{
+        text-align:center;
+        color:white
+    }
+    p:nth-of-type(2n){
+        font-family:'Open Sans','Oswald'
+    }
+    p:nth-of-type(2n+1){
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style:oblique
+    }
